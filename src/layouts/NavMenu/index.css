@@ -1,0 +1,61 @@
+.layout-aside {
+  width: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background: #404040;
+  transition: all .3s;
+}
+.layout-aside-collapse {
+  width: 64px;
+}
+.layout-logo {
+  height: 32px;
+  line-height: 32px;
+  margin: 16px 24px;
+  background: #404040;
+  overflow: hidden;
+  transition: all .3s;
+}
+.layout-logo-collapse {
+  margin: 16px;
+}
+.logo {
+  font-size: 30px;
+  color: #fff;
+}
+.logo:hover {
+
+}
+.title-text {
+  color: #fff;
+  line-height: 32px;
+  font-size: 20px;
+
+}
+ul, li {
+  list-style: none;
+}
+.nav-text {
+  font-size: 16px;
+  color: #fff;
+}
+a {
+  text-decoration: none;
+}
+.aside-action {
+  width: 150px;
+  height: 42px;
+  line-height: 42px;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  background: #656565;
+  cursor: pointer;
+  text-align: center;
+  transition: all .3s;
+}
+.aside-action-collapse {
+  width: 64px;
+}
